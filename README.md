@@ -1,13 +1,13 @@
-# Multilingual Maternal Health Assistant
+# Multilingual Maternal Health Assistant (DevFest Zambia 2026)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/notebooks/multilingual_maternal_health_assistant.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dawa-Health/DevFest_Zambia_2026/blob/main/notebooks/multilingual_maternal_health_assistant.ipynb)
 
 A Google Colab notebook that combines language detection, translation and a maternal-health chatbot for seven languages: **English, Nyanja, Bemba, Lozi, Tonga, Shona and Ndebele**.
 
 It launches a small web app with two tabs:
 
 - **Translator**: translate between the supported languages, with automatic detection of the input language.
-- **Chatbot**: ask maternal-health questions in any supported language. Answers come from [MedGemma](https://huggingface.co/google/medgemma-4b-it) with the [`dawahealth/medgemma-maternal-lora-v2`](https://huggingface.co/dawahealth/medgemma-maternal-lora-v2) adapter.
+- **Chatbot**: ask maternal-health questions in any supported language. Answers come from [MedGemma](https://huggingface.co/google/medgemma-4b-it) with the [`tarirozw/medgemma-maternal-lora-v2`](https://huggingface.co/tarirozw/medgemma-maternal-lora-v2) adapter.
 
 > **Not a medical device.** The chatbot can give incorrect medical information and is intended for research and development only. Have clinicians and native speakers review its outputs before any patient-facing use.
 
@@ -55,7 +55,7 @@ Optional features: show an English version of each reply for checking, switch th
 
 ## Licences and terms
 
-- **Adapter:** `dawahealth/medgemma-maternal-lora-v2` is released under AGPL-3.0 and also subject to the [Health AI Developer Foundations terms](https://developers.google.com/health-ai-developer-foundations/terms). Its model card notes that offering it to others over a network (for example a shared web link) requires making the corresponding source available under AGPL-3.0.
+- **Adapter:** `tarirozw/medgemma-maternal-lora-v2` is released under AGPL-3.0 and also subject to the [Health AI Developer Foundations terms](https://developers.google.com/health-ai-developer-foundations/terms). Its model card notes that offering it to others over a network (for example a shared web link) requires making the corresponding source available under AGPL-3.0.
 - **NLLB-200:** weights are CC-BY-NC (non-commercial use only).
 - **Gemma / TranslateGemma / MedGemma:** subject to Google's terms of use on their model pages.
 - Check each model page for the current terms before deploying.
